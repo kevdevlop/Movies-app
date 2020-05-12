@@ -32,11 +32,10 @@ dev_dependencies:
   flutter_launcher_icons: "^0.7.5"
 
 flutter_icons:
-  image_path: "assets/icon/icon-710x599-android.png"
-  android: true # can specify file name here e.g. "ic_launcher"
+  android: "ic_launcher" # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
-  adaptive_icon_background: "assets/icon/icon-background.png" # only available for Android 8.0 devices and above
-  adaptive_icon_foreground: "assets/icon/icon-foreground.png" # only available for Android 8.0 devices and above
+  image_path: "assets/icon/movie-icon.png"
+  adaptive_icon_background: "assets/icon/movie-icon.png" # only available for Android 8.0 devices and above
 
 
 # For information on the generic Dart part of this file, see the
